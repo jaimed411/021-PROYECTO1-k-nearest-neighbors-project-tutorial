@@ -93,3 +93,11 @@ De tal forma que devolveríamos las 5 películas más similares a la que introdu
 ```py
 recommend("introduce una película")
 ```
+
+#### CONCLUSIONES/RESUMEN
+
+Hemos creado un sistema de recomendacion de peliculas donde nos dice las cinco peliculas que mas se parecen a la que elijamos como preferente. 
+
+para ello he cargado el conjunto de datos para saber de que se trata ese csv y saber numero d filas y columnas.
+luego he creado una base de datos con sqlite3 donde he unido los dataframe para generar una tercera tabla llamada titulo, donde una vez he transformado los datos segun las instrucciones, como convertir los elemetos a listas usando lambda.
+finalmente he creado un modelo de KNN para obtener la funcion de recomendación, en este caso peliculas, he puesto una aleatoria, y me han salido cinco peliculas similares.
